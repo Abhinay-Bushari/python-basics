@@ -1,0 +1,35 @@
+country="INDIA"
+class ace:
+    col="ACE ENGINEERING COLLEGE"
+    def givedetails_(self,a,b,c,d,e):
+        self.tot=a+b+c+d
+        self.name=e
+    def display(self):
+        print("NAME:",self.name)
+        print("MARKS:",self.tot)
+        print("COLLLEGE:",ace.col)
+        print("COUNTRY:",country)
+class jntu:
+    col="JNTU COLLEGE"
+    def givedetails_(self,a,b,c,d,e):
+        self.tot=a+b+c+d
+        self.name=e
+    def display(self):
+        print("NAME:",self.name)
+        print("MARKS:",self.tot)
+        print("COLLLEGE:",jntu.col)
+        print("COUNTRY:",country)
+
+
+a=ace()
+a1=ace()
+b=jntu()
+b1=jntu()
+a.givedetails_(90,80,80,80,"KRISHNA REDDY")
+a1.givedetails_(70,65,90,80,"TARUN")
+b.givedetails_(90,80,80,80,"GANGAVALLI")
+b1.givedetails_(90,80,80,80,"PRESHIKA")
+a.display()
+a1.display()
+b.display()
+b1.display()
